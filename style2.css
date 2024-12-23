@@ -1,0 +1,104 @@
+body {
+	background: #3C0109;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	
+}
+
+*{
+	font-family: sans-serif;
+	box-sizing: border-box;
+}
+
+form {
+	width: 800px;
+	border: 2px solid rgb(76, 53, 53);
+	padding: 10px;
+	background: #fff;
+	border-radius: 20px;
+    margin-top: 20%;
+}
+
+
+h2 {
+	display: block;
+	width: fit-content;
+	font-size: 2rem;
+	position: relative;
+	color: black ;
+    text-align: center;
+	
+}
+
+h2 span {
+	
+	top: 0;
+	left: 0;
+	height: 80%;
+	width: 0;
+	color: crimson;
+	text-align: center;
+}
+
+
+input {
+	display: block;
+	border: 2px solid #ccc;
+	width: 95%;
+	padding: 10px;
+	margin: 10px auto;
+	border-radius: 5px;
+}
+label {
+	color: #888;
+	font-size: 18px;
+	padding: 10px;
+}
+
+button {
+	float: right;
+	background: #555;
+	padding: 10px 15px;
+	color: #fff;
+	border-radius: 5px;
+	margin-right: 10px;
+	border: none;
+}
+button:hover{
+	opacity: .7;
+}
+.error {
+   background: #F2DEDE;
+   color: #A94442;
+   padding: 10px;
+   width: 95%;
+   border-radius: 5px;
+   margin: 20px auto;
+}
+
+.success {
+   background: #D4EDDA;
+   color: #40754C;
+   padding: 10px;
+   width: 95%;
+   border-radius: 5px;
+   margin: 20px auto;
+}
+
+h1 {
+	text-align: center;
+	color: #fff;
+}
+
+.ca {
+	font-size: 14px;
+	display: inline-block;
+	padding: 10px;
+	text-decoration: none;
+	color: rgb(113, 63, 63);
+}
+.ca:hover {
+	text-decoration: underline;
+} 
